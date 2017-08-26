@@ -701,7 +701,17 @@ img {
   height: 96px;
   top: 20px;
   left: 120px;
-  background: url(../../img/advantage-2-illustration.svg);
+  background: url(../../img/advantage-1-illustration.svg);
+  background-repeat: no-repeat;
+}
+.adventages__item:hover::before {
+  content: "";
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: 20px;
+  left: 120px;
+  background: url(../../img/advantage-1-red-illustration.svg);
   background-repeat: no-repeat;
 }
 .adventages__item-title {
@@ -711,6 +721,22 @@ img {
 }
 .adventages__item:nth-child(n+2) {
   display: none;
+}
+.adventages__toggles {
+  width: 76px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.slider__toggle {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #959595;
+  transform: rotate(45deg);
+}
+.slider__toggle--active {
+  background: white;
 }
 @media (min-width: 768px) {
   .advantages__wrapper {
