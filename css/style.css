@@ -187,7 +187,7 @@ img {
   left: 21px;
   width: 16px;
   height: 16px;
-  background-image: url(../../img/login.png);
+  background-image: url(../img/login.png);
   background-position: center;
 }
 @media (max-width: 767px) {
@@ -701,7 +701,7 @@ img {
   height: 96px;
   top: 20px;
   left: 110px;
-  background: url(../../img/advantage-1-illustration.svg);
+  background: url(../img/advantage-1-illustration.svg);
   background-repeat: no-repeat;
 }
 .adventages__item:hover::before {
