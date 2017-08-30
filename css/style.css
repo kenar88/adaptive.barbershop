@@ -230,14 +230,14 @@ img {
   left: 0;
   width: 50px;
   height: 10px;
-  background: url(../../img/Vector%20Smart%20Object%20copyBLACK.svg);
+  background: url(../img/Vector%20Smart%20Object%20copyBLACK.svg);
   background-repeat: no-repeat;
 }
 .news__time:hover {
   background: #826550;
 }
 .news__time:hover::after {
-  background: url(../../img/Vector%20Smart%20Object%20copy%204FFFF.svg) no-repeat;
+  background: url(../img/Vector%20Smart%20Object%20copy%204FFFF.svg) no-repeat;
 }
 .news__time:active {
   color: #a09187;
@@ -603,7 +603,7 @@ img {
   bottom: 26px;
   left: 50%;
   margin-left: -12px;
-  background: url(../../img/vk-icon-big.png) no-repeat;
+  background: url(../img/vk-icon-big.png) no-repeat;
 }
 .social-link--in {
   position: relative;
@@ -616,7 +616,7 @@ img {
   bottom: 26px;
   left: 50%;
   margin-left: -18px;
-  background: url(../../img/insta-icon-big.png) no-repeat;
+  background: url(../img/insta-icon-big.png) no-repeat;
 }
 .social-link--fb {
   position: relative;
@@ -629,7 +629,7 @@ img {
   bottom: 26px;
   left: 50%;
   margin-left: -9px;
-  background: url(../../img/facebook-icon-big.png) no-repeat;
+  background: url(../img/facebook-icon-big.png) no-repeat;
 }
 .page-footer__copyright {
   display: block;
@@ -1023,7 +1023,7 @@ img {
     bottom: 50%;
     right: 50%;
     margin-right: -6px;
-    background: url(../../img/left%20arrow%20copy%203.png) no-repeat;
+    background: url(../img/left%20arrow%20copy%203.png) no-repeat;
   }
   .reviews__prev:hover {
     border: 1px solid #d5c9bd;
@@ -1047,7 +1047,7 @@ img {
     bottom: 50%;
     right: 50%;
     margin-right: -6px;
-    background: url(../../img/right%20arrow%20copy%203.png) no-repeat;
+    background: url(../img/right%20arrow%20copy%203.png) no-repeat;
   }
   .reviews__next:hover {
     border: 1px solid #d5c9bd;
@@ -1271,7 +1271,7 @@ img {
     width: 960px;
   }
   .adventages::after {
-    background: url(../../img/LOL3.png) no-repeat;
+    background: url(../img/LOL3.png) no-repeat;
     height: 124px;
     width: 100%;
     background-size: 100%;
